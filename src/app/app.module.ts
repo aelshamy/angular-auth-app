@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DisableIfUnauthorizedDirective } from './disable-if-unauthorized.directive';
+import { HideIfUnauthorizedDirective } from './hide-if-unauthorized.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DisableIfUnauthorizedDirective,
+    HideIfUnauthorizedDirective
   ],
   imports: [
     BrowserModule
